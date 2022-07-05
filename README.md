@@ -8,8 +8,6 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src=".\Tela-de-Autenticacao/Tela de Autenticação.png" alt="exemplo imagem">
-
 >  Projeto desenvolvido nas tecnologias: HTML, CSS, JavaScript, BootStrap, AOS, Swiper.
 >  Projeto totalmente responsivo, com design simples e bonito, menus e submenus interativos.
 >  Página inicial + 6 Subpáginas (CpaaS, 2FA, NumberMask, Google Verified, SmS e Instituicional).
@@ -20,11 +18,12 @@ Sobre o Design <Pagina-inicial>:
 
 O design é minimalista e bonito, o que torna todo o site de fácil entedimento ao usuário.
 
-<img src=".\Tela-de-Autenticacao/LocalStorage.svg" alt="exemplo imagem">
+<img src="./img/projeto.png" alt="exemplo imagem">
 
-## 🌙 DarkMode <Pagina-inicial>
+## 🌙 DarkMode Aplicado em todas às páginas. <Pagina-inicial>
+ 
 
-<img src=".\Tela-de-Autenticacao/LocalStorage.svg" alt="exemplo imagem">
+<img src="./img/Darkmode.svg" alt="exemplo imagem">
 
 O site foi desenvolvido utilizando o Framework BootStrap, biblioteca AOS, Swiper.
 
