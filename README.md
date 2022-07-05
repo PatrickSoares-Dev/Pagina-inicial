@@ -10,13 +10,13 @@
 
 <img src=".\Tela-de-Autenticacao/Tela de Autenticação.png" alt="exemplo imagem">
 
-> Projeto desenvolvido nas tecnologias: HTML, CSS, JavaScript, BootStrap, AOS, Swiper.
-> Projeto totalmente responsivo, com design simples e bonito, menus e submenus interativos.
-> Página inicial + 6 Subpáginas (CpaaS, 2FA, NumberMask, Google Verified, SmS e Instituicional).
+>  Projeto desenvolvido nas tecnologias: HTML, CSS, JavaScript, BootStrap, AOS, Swiper.
+>  Projeto totalmente responsivo, com design simples e bonito, menus e submenus interativos.
+>  Página inicial + 6 Subpáginas (CpaaS, 2FA, NumberMask, Google Verified, SmS e Instituicional).
 
 ## ☕ Design <Pagina-inicial>
 
-Sobre a <Pagina-inicial>:
+Sobre o Design <Pagina-inicial>:
 
 O design é minimalista e bonito, o que torna todo o site de fácil entedimento ao usuário.
 
@@ -41,14 +41,6 @@ Há um formulário de contato, com iFrame no Maps do Google, interativo, podendo
 desenvolvedor colocar, para o cliente é muito útil para a localização do escritório da empresa.
 
 <img src=".\Tela-de-Autenticacao/LocalStorage.svg" alt="exemplo imagem">
-
-
-
-```
-<Dark Mode>
-```
-
-<img src=".\Tela-de-Autenticacao/Darkmode.png" alt="exemplo imagem">
 
 
 ### Ajustes e melhorias
