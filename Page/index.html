@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=0.5" name="viewport">
+
+  <title>Página Inicial - Telecall</title>
+  <meta content="" name="description">
+  <link rel="icon" href="./assets/img/telecalltitle.png">
+
+  <meta content="" name="keywords">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+  integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+  crossorigin="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--Header-->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./assets/img/telecall-logo.png" alt="">
+        <span></span>
+      </a>
+      <div class="drk">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+      <nav id="navbar" class="navbar">        
+        <ul>
+          <li><a id="header1" class="nav-link scrollto active" href="./index.html#hero">Inicio</a></li>
+          <li><a id="header1" class="nav-link scrollto" href="./saiba-mais.html">Sobre a Telecall</a></li>
+          <li><a id="header1" class="nav-link scrollto" href="./index.html#testimonials">Clientes</a></li>
+          <li><a id="header1" class="nav-link scrollto" href="./cpaas.html">CPaaS</a></li>
+          <li class="dropdown"><a id="header1" href="./index.html#values"><span>Serviços</span> <i
+                class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="./2fa.html"><span>2FA</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="2fa.html#contentFA">Sobre</a></li>
+                  <li><a href="2fa.html#Usabilidade">Uso do 2FA</a></li>
+                  <li><a href="2fa.html#Resultados">Resultados</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./numero-mask.html"><span>Número Máscara</span> <i
+                    class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./numero-mask.html#contentFA">Sobre</a></li>
+                  <li><a href="./numero-mask.html#Usabilidade">Como funciona?</a></li>
+                  <li><a href="./numero-mask.html#recursos">Outros recursos</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./google-verified.html"><span>Google Verified Calls</span> <i
+                    class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./google-verified.html#contentFA">Sobre</a></li>
+                  <li><a href="./google-verified.html#Usabilidade">Uso do GVC</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./sms.html"><span>SMS Programável</span> <i
+                    class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./sms.html#contentFA">Sobre</a></li>
+                  <li><a href="./sms.html#Usabilidade">Usos do SMS</a></li>
+                  <li><a href="./sms.html#tab4">Resultados</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="getstarted btn-client scrollto" id="buttonheader" href="../Login/login.html">Área do cliente</a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+      </nav>
+    </div>
+  </header>
+
+  <!--Sessão principal-->
+
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Soluções inteligentes para a sua empresa.</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Telecall é uma operadora regulada pela ANATEL, proprietária de uma
+            rede de fibra de alta capacidade, oferecendo a seus clientes o mais alto padrão de qualidade, velocidade e
+            acessibilidade em soluções telefônicas e de internet.</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Clique e confira nossos serviços</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#values"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Serviços</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="./assets/img/person2.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+    <header>
+
+    </header>
+  </section>
+
+  <!--Sessão Internet-->
+
+  <section id="values" class="services">
+
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+        <h2>Algumas das nossas soluções</h2>
+        <p>Soluções Inteligentes para a sua empresa</p>
+      </header>
+
+      <div class="row">
+
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box" id="values2">
+            <img src="assets/img/2276897-ilustracao-em-de-icone-de-site-grátis-vetor-removebg-preview.png"
+              class="img-fluid" id="img-1" alt="">
+            <h3 id="tittle-v2">Internet</h3>
+            <p id="subti-v2">Solução de internet em Fibra com alta qualidade e disponibilidade.</p>
+            <a href="#values"
+              class="btn-get-started btn-service scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <span id="btnvalues2" href="">Serviços</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon-box" id="values2">
+            <img src="./assets/img/b3db1e1d0a379ec58e1baee42423cd62.png" class="img-fluid" id="img-2" alt="">
+            <h3 id="tittle-v2">Telefonia</h3>
+            <p id="subti-v2">Solução inteligiente de PABX IP na núvem para sua telefonia fixa.</p>
+            <a href="#values"
+              class="btn-get-started btn-service scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <span id="btnvalues2">Serviços</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+          <div class="icon-box" id="values2">
+            <img src="./assets/img/mobilidade.png" class="img-fluid" id="img-3" alt="">>
+            <h3 id="tittle-v2">Mobilidade</h3>
+            <p id="subti-v2">Monte planos de celular personalizadas para a sua empresa e pague apenas pelo que precisa.
+            </p>
+            <a href="#values"
+              class="btn-get-started btn-service scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              <span id="btnvalues2">Serviços</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <main id="main">
+
+    <!--Sessão Sobre a Empresa-->
+
+    <section id="about" class="about">
+
+      <header class="section-header">
+        <h2>SOBRE NÓS</h2>
+        <p>Conheça uma pouco sobre nossa história</p>
+      </header>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Sobre nós</h3>
+              <h2>+ 800 km de rede em todo o Rio de Janeiro</h2>
+              <p>
+                Telecall é uma operadora regulada pela ANATEL (Licenças SCM, STFC e SMP), proprietária de uma rede de
+                fibra de alta capacidade, oferecendo a seus clientes o mais alto padrão de qualidade, velocidade e
+                acessibilidade em soluções telefônicas e de internet. Serviços que incluem uma ampla gama de valores
+                agregados, oferecendo aos clientes operações mais produtivas, dinâmicas e eficazes.
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="./saiba-mais.html"
+                  class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Saiba mais</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="./assets/img/mapa_fibra.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--Sessão CPaaS-->
+
+    <section id="hero" class="hero2 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up" id="ti-cpaas" style="color: var(--colorwhite);" >CPaaS: O que é?</h1>
+            <br>
+            <h3 data-aos="fade-up" id="ti-cpaas2" data-aos-delay="400">Communications Platform as a Service</h3>
+            <br>
+            <h2 data-aos="fade-up" class="ti-cpaas" data-aos-delay="" id="ti-cpaas3" style="color: #fff;" data-aos-delay="400">É uma solução de software de comunicação que atua
+              como uma base sobre a qual desenvolvedores podem integrar uma variedade de aplicativos.</h2>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <div class=" img-cpaas text-center text-lg-start">
+                <a href="./cpaas.html"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Saiba mais</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="./assets/img/What-is-CPaaS2.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+      <header>
+
+      </header>
+    </section>
+
+     <!--Sessão Serviços-->
+
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p id="services-title">SERVIÇOS</p>
+          <h2 id="subtitle-services2">Clique para mais informações</h2>
+        </header>
+
+        <div class="row">
+
+          <div class="col col-md-3 col-sm" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <a href="./2fa.html">
+                <img src="./assets/img/cadeado.png" href="./2fa.html" class="img-fluid" alt="">
+                <h3>2FA</h3>
+                <p>O 2FA é um procedimento de segurança que garante que serão necessários 2 fatores únicos para
+                  liberação de uma ação. </p>
+              </a>
+            </div>
+          </div>
+          <div class="col col-md-3 col-sm" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <a href="./numero-mask.html">
+                <img src="./assets/img/mask.png" class="img-fluid" id="numbermask" alt="">
+                <h3>NÚMERO MASK</h3>
+                <p>Garanta aos seus clientes a capacidade de fazer chamadas e enviar mensagens sem expor seus números de
+                  telefone pessoais. <span style="color: var(--backcolor3);"></span> </p>
+            </div>
+            </a>
+          </div>
+
+          <div class="col col-md-3 col-sm" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <a href="./google-verified.html">
+                <img src="./assets/img/Verifields.png" class="img-fluid" alt="">
+                <h3>GOOGLE VERIFIED CALLS</h3>
+                <p>Esse novo recurso do Google, exclusivo para telefones Android, permite que empresas exibam para o
+                  cliente na hora da chamada sua marca, logotipo e até mesmo o motivo da chamada.</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col col-md-3 col-sm" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <a href="./sms.html">
+                <img src="./assets/img/sms.png" class="img-fluid" alt="">
+                <h3>SMS PROGRAMÁVEL</h3>
+                <p>Uma API, que envia mensagens de textos predefinidas que impacta clientes, prospects ou fornecedores
+                  como parte de seu processo comercial.</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+     <!--Sessão Carrousel-->
+
+    <section class="carousel">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" style="height: 27em;">
+            <div class="carousel-item active">
+              <img class="d-block w-100  img-carousel" src="./assets/img/TCAL_activtrak_campanha_banner (1).png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 " src="./assets/img/banner190520.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/img/banner-desk-dudu.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+     <!--Sessão Slide / Depoimentos -->
+
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2 style="font-size: 36px" >Depoimentos</h2>
+          <p style="font-size: 27px" >Alguns de nossos Clientes</p>   
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Fantástico trabalho da equipe Telecall. Profissionais completamente comprometidos. Uma entrega
+                  perfeita.“
+                </p>
+                <div class="profile mt-auto">
+                  <img src="./assets/img/depoim1.png" class="testimonial-img" alt="">
+                  <h3>Leonardo Cohen – SLS World Championship</h3>
+                  <h4>Finals 2018 - Rio de Janeiro</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “É com o coração transbordando de orgulho e gratidão que concluímos uma edição do Rock in Rio. Toda
+                  amagia que vivemos nesses 7 dias de festival jamais seria possível sem a participação de marcas e
+                  profissionais como vocês que acreditaram na gente e ajudaram a tornar esse sonho realidade. A edição
+                  2017 ficará para a história e agora nosso desafio é ainda maior. Fica aqui mais uma vez, o nosso
+                  muito obrigada e que venha 2019!!”
+                </p>
+                <div class="profile mt-auto">
+                  <img src="./assets/img/logo-rock-in-rio.png" class="testimonial-img" alt="">
+                  <h3>Laila Dias</h3>
+                  <h4>Account Executive - Brasil</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "A operação foi um sucesso, a transmissão correu como desejado, graças à você. Agradecemos a
+                  atenção, o cuidado e o esforço de toda a equipe com o nosso produto... Muito obrigado e parabéns
+                  pelo excelente trabalho. Para nós, foi um novo padrão de entrega e operação excepcional ".
+                </p>
+                <div class="profile mt-auto">
+                  <img src="./assets/img/logo-maratona.png" class="testimonial-img" alt="">
+                  <h3>Pedro Pereira</h3>
+                  <h4>Diretoria de Projetos</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “O Mc Donald conheceu a Telecall durante os Jogos Olímpicos Rio 2016 para um pedido urgente de um
+                  evento de mídia ao vivo, quatro dias mais tarde. A Telecall foi extremamente proﬁssional... Nós
+                  simplesmente não teríamos conseguido sem a parceria da equipe Telecall. Só usaremos eles em eventos
+                  no Rio.”
+                </p>
+                <div class="profile mt-auto">
+                  <img src="./assets/img/logo-mcdonalds.png" class="testimonial-img" alt="">
+                  <h3>Kathy Whalen</h3>
+                  <h4>Project Manager, Consumer Events | Creative & Event Solutions | Global Business Services</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  “Equipe e visitantes da casa da República Tcheca ﬁcaram felizes, foi um sucesso os serviços
+                  prestados pela Telecall, agradecemos toda a ajuda.”
+                </p>
+                <div class="profile mt-auto">
+                  <img src="./assets/img/logo-czech.png" class="testimonial-img" alt="">
+                  <h3>Blanka Konečná</h3>
+                  <h4>Project manager</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--Sessão Contato -->
+
+  </main>
+  <section class="contact">
+    <h1 class="section-header">Fale conosco</h1>
+    <div class="contact-wrap">
+      <div class="contact-in">
+        <h1>Informações de contato</h1>
+        <h2><i class="ri-phone-line" id="telefone" aria-hidden="true"></i>Telefone</h2>
+        <p> (21) 3030-1010</p>
+        <h2><i class="ri-mail-send-line" aria-hidden="true"></i> Email</h2>
+        <p> suporte@telecall.com</p>
+        <h2><i class="ri-map-pin-line" aria-hidden="true"></i> Endereço</h2>
+        <p> Centro empresarial Mario Henrique Simonsen Av. das Américas, 3434 | Bloco 1, Sala 505. <br>Barra da Tijuca
+          Rio de Janeiro, RJ</p>
+        <div class="social-links" id="social">
+          <a href="https://api.whatsapp.com/send?phone=5521936180100&app=facebook&entry_point=page_cta&fbclid=IwAR2SKSngA7hI6IiVIUZCL0U7VkyIcEqVm_kkSI1Nar4fZEzfZdKOaMfkM-o"
+            class="twitter"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/company/telecall/" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/telecallbr/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/telecall/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-in">
+        <h1>Envie sua mensagem</h1>
+        <form>
+          <input type="text" placeholder="Nome completo" required class="contact-in-input ">
+          <input type="text" placeholder="Email" required class="contact-in-input">
+          <input type="text" placeholder="Assunto" required class="contact-in-input">
+          <textarea placeholder="Mensagem" required class="contact-in-textarea"></textarea>
+          <input type="submit" value="Enviar" class="contact-in-btn">
+        </form>
+      </div>
+      <div class="contact-in">
+        <iframe
+          src="https://maps.google.com/maps?q=Centro%20Empresarial%20Mario%20Henrique%20Simonsen%20Av.%20das%20Am%C3%A9ricas,%203434&t=&z=17&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"" width=" 100%" height="auto" frameborder="0"
+          style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+   <!--Footer -->
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="./assets/img/telecall-logo.svg" alt="">
+              <span></span>
+            </a>
+            <br>
+            <p>
+              Com experiência acumulada de mais de 20 anos e a busca constante por inovação e tecnologia, a Telecall é
+              hoje referência no segmento de telecomunicações e sinônimo de qualidade e eficiência.<br>
+              Site desenvolvido para fins educacionais. <br>
+              Criador : Patrick Soares de Oliveira
+            </p>
+            <div class="social-links mt-3">
+              <p id="follow">Siga-nos </p>
+              <br>
+              <a href="https://api.whatsapp.com/send?phone=5521936180100&app=facebook&entry_point=page_cta&fbclid=IwAR2SKSngA7hI6IiVIUZCL0U7VkyIcEqVm_kkSI1Nar4fZEzfZdKOaMfkM-o"
+              class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.facebook.com/TelecallBr" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/telecallbr/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/telecall/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Informações</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="./saiba-mais.html">Instituicional</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="./index.html#testimonials">Depoimentos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="./index.html#values">Serviços</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/vendas">Vendas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/faq-internet">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-6 footer-links">
+            <h4>Outros Serviços</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/internet/internet-dedicada">Link
+                  Dedicado</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/internet/banda-larga">Banda
+                  Larga</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/internet/wi-fi">Wi-Fi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/pabx-ip">PABX-IP</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/pabx-ip">Números 0800 e 40XX</a>
+              </li>
+              <br>
+              <h4>Eventos</h4>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/servicos-para-eventos">Serviços
+                  para eventos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/eventos">Eventos Telecall</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contatos</h4>
+            <p>
+              Escritório <br>
+              <br>
+              Centro empresarial Mario Henrique Simonsen
+              Av. das Américas, 3434 | Bloco 1, Sala 505
+              Barra da Tijuca <br>
+              Rio de Janeiro, RJ <br><br>
+              <strong>Telefone:</strong> (21) 3030-1010 <br>
+
+              <strong>Email:</strong> suporte@telecall.com<br>
+            </p>
+
+          </div>
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h4>international addresses</h4>
+            <p>
+              Escritório <br>
+              <br>
+              848 Brickell Av - Suite 1235 - Miami FL - 33131 <br>
+              Estados Unidos <br>
+              <br>
+
+
+              Av. da República 18 - 3° Piso/403 - Lisboa, Portugal 1050-191 <br>
+              Portugal <br><br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/jquerystorage.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

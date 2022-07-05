@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>2FA</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="icon" href="./assets/img/telecalltitle.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./index.html">
+
+</head>
+
+<body>
+
+  <!--Header -->
+
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./assets/img/telecall-logo.png" alt="">
+        <span></span>
+      </a>
+      <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          <div class="ball"></div>
+        </label>
+      </div> 
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="./index.html#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="./saiba-mais.html">Sobre a Telecall</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#testimonials">Clientes</a></li>
+          <li class="dropdown"><a href="./index.html#values"><span>Serviços</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="./cpaas.html"><span>CPaaS</span> <i class=""></i></a>
+              </li>
+              <li class="dropdown"><a href="./2fa.html"><span>2FA</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="2fa.html#contentFA">Sobre</a></li>
+                  <li><a href="2fa.html#Usabilidade">Uso do 2FA</a></li>
+                  <li><a href="2fa.html#Resultados">Resultados</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./numero-mask.html"><span>Número Máscara</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./numero-mask.html#contentFA">Sobre</a></li>
+                  <li><a href="./numero-mask.html#Usabilidade">Como funciona?</a></li>
+                  <li><a href="./numero-mask.html#recursos">Outros recursos</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./google-verified.html"><span>Google Verified Calls</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./google-verified.html#contentFA">Sobre</a></li>
+                  <li><a href="./google-verified.html#Usabilidade">Uso do GVC</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./sms.html"><span>SMS Programável</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="./sms.html#contentFA">Sobre</a></li>
+                  <li><a href="./sms.html#Usabilidade">Usos do SMS</a></li>
+                  <li><a href="./sms.html#tab4">Resultados</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="getstarted btn-client scrollto" id="buttonheader" href="../Login/login.html">Área do cliente</a>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header> 
+  <main id="mainFA"> 
+
+     <!-- Header 2  -->
+
+    <section class="breadcrumbs FA">
+      <div class="container">
+
+
+        <ol>
+          <li><a href="index.html">Inicio</a></li>
+          <li>2FA</li>
+        </ol>
+        <h2>2FA</h2>
+        <h6>Two-Factor Authentication</h6>
+
+      </div>
+    </section>
+  </section>
+
+  <!-- About  -->
+
+  <section id="features" class="features-FA" href="">
+
+    <div class="container FABACK" data-aos="fade-up">
+
+
+      <div class="row ">
+
+        <div class="col-lg-6 img-content">
+          <img src="./assets/img/Screenshot_1.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+          <div class="row align-self-center gy-4">
+
+            <div class="col-lg-12 d-flex flex-column justify-content-center FAT" data-aos="fade-up" data-aos-delay="200">
+              <div class="content contentFA" id="contentFA">
+                <h3>O que é Two-Factor Authentication?</h3>
+                <h4>Autenticação de dois fatores</h4>
+
+                <p>
+                  O 2FA é um procedimento de segurança que garante que serão 
+                  necessários 2 fatores únicos para liberação de uma ação. O 
+                  primeiro fator é a senha que o usuário e o segundo pode ser 
+                  autenticado via token, via detecção de impressão digital, 
+                  reconhecimento facial, código enviado via sms, entre outros.<br>
+                  <br>
+                  O 2FA permite que você:
+                  <br>
+                  <br>
+                  • Envie uma senha via SMS, voz ou e-mail para autenticação do usuário.
+                  <br>
+                  • Adicione uma camada extra de segurança além da senha pessoal.
+                  <br>
+                  • Ofereça maior segurança para usuários.
+                </p>
+
+               
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sessão de opções   -->
+
+      <div class="row feture-tabs " id="Usabilidade" data-aos="fade-up">
+        <div class="col-lg-12 ">
+          <h3>Usabilidade</h3>
+
+          <ul class="nav nav-pills mb-4">
+            <li>
+              <a class="nav-link active" id="#tab" data-bs-toggle="pill" href="#tab1">Como funciona?</a>
+            </li>
+            <li>
+              <a class="nav-link" id="#tab" data-bs-toggle="pill" href="#tab2">BENEFICIOS</a>
+            </li>
+            <li>
+              <a class="nav-link" id="#tab" data-bs-toggle="pill" href="#tab3">Quem usa?</a>
+            </li>
+            <li>
+              <a class="nav-link"  id="#tab"data-bs-toggle="pill" href="#tab4">Empresas que utilizam</a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+
+            <div class="tab-pane fade show active" id="tab1">
+              <img src="./assets/img/comofunciona.png" id="img-funciona" class="img-fluid" alt="">
+            </div>
+
+            <div class="tab-pane fade show" id="tab2">
+              <img src="./assets/img/beneficios.png" class="img-fluid" id="beneficios" alt="">
+            </div>
+
+            <div class="tab-pane fade show" id="tab3">
+              <img src="./assets/img/quemusaramos.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="tab-pane fade show" id="tab4">
+              <img src="./assets/img/quemusa.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Sessão de resultados  -->
+  
+      <div class="row feature-icons" id="Resultados" data-aos="fade-up">
+        <div class="row">
+          <div class="col-xl-0 text-center" data-aos="fade-right" data-aos-delay="100">
+            
+          </div>
+          <h3>Fortaleça a estratégia de segurança de seu negócio.</h3><br>
+          <div class="col-xl-16 d-flex content">
+            <div class="row align-self-center gy-4">
+
+
+              <div class="col-md-4icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div>
+                  <h3 id="subtitle">Adicionar um número de telefone de recuperação a uma conta individual pode bloquear até:</h3>
+                </div>
+              </div>
+              <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div>
+                  <h4>100% dos BOTS automatizados.</h4>
+                  <p>Os bots maus, são projetados por hackers e outros usuários da Internet para gerar falsas impressões de anúncios, veicular spam e malwares.</p>
+                  
+                </div>
+              </div>
+
+              <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="400">
+                <i class=""></i>
+                <div>
+                  <h4>99% dos ataques de Phising em massa.</h4>
+                  <p>Phishing é o crime de enganar as pessoas para que compartilhem informações confidenciais como senhas e número de cartões de crédito.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="500">
+                <i class=""></i>
+                <div>
+                  <h4>66% Dos ataques direcionados na sua página.</h4>
+                  <p>Um ciberataque, também chamado de ataque cibernético (cyberattack, em inglês), é qualquer tentativa de expor, alterar, desativar, destruir, roubar informações.</p>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="./assets/img/telecall-logo.svg" alt="">
+              <span></span>
+            </a>
+            <br>
+            <p>
+              Com experiência acumulada de mais de 20 anos e a busca constante por inovação e tecnologia, a Telecall é hoje referência no segmento de telecomunicações e sinônimo de qualidade e eficiência.<br>
+              <br>
+              Site desenvolvido para fins educacionais. <br>
+              Criador : Patrick Soares de Oliveira </p>
+              <div class="social-links mt-3">
+                <p id="follow">Siga-nos </p>
+                <br>
+                <a href="https://api.whatsapp.com/send?phone=5521936180100&app=facebook&entry_point=page_cta&fbclid=IwAR2SKSngA7hI6IiVIUZCL0U7VkyIcEqVm_kkSI1Nar4fZEzfZdKOaMfkM-o"
+                class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.facebook.com/TelecallBr" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/telecallbr/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/telecall/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Informações</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="./saiba-mais.html">Instituicional</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="./index.html#testimonials">Depoimentos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="./index.html#values">Serviços</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/vendas">Vendas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/faq-internet">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-6 footer-links">
+            <h4>Outros Serviços</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/internet/internet-dedicada">Link Dedicado</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/internet/banda-larga">Banda Larga</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/internet/wi-fi">Wi-Fi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/pabx-ip">PABX-IP</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/pabx-ip">Números 0800 e 40XX</a></li>
+              <br>
+              <h4>Eventos</h4>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/servicos-para-eventos">Serviços para eventos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://www.telecall.com/eventos">Eventos Telecall</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contatos</h4>
+            <p>
+              Escritório <br>
+              <br>
+              Centro empresarial Mario Henrique Simonsen
+              Av. das Américas, 3434 | Bloco 1, Sala 505
+              Barra da Tijuca <br>
+              Rio de Janeiro, RJ <br><br>
+              <strong>Telefone:</strong>  (21) 3030-1010 <br>
+            
+              <strong>Email:</strong> suporte@telecall.com<br>
+            </p>
+
+          </div>
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h4>international addresses</h4>
+            <p>
+              Escritório <br>
+              <br>
+              848 Brickell Av - Suite 1235 - Miami FL - 33131 <br>
+              Estados Unidos <br>
+              <br>
+
+
+              Av. da República 18 - 3° Piso/403 - Lisboa, Portugal 1050-191 <br>
+              Portugal <br><br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
