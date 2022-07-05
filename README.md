@@ -13,12 +13,11 @@
 >  Página inicial + 6 Subpáginas (CpaaS, 2FA, NumberMask, Google Verified, SmS e Instituicional).
 
 ## ☕ Design <Pagina-inicial>
-
-Sobre o Design <Pagina-inicial>:
-
+```
 O design é minimalista e bonito, o que torna todo o site de fácil entedimento ao usuário.
+```
 
-<img src="./img/projeto.png" alt="exemplo imagem">
+<img src="./img/Projeto.svg" alt="exemplo imagem">
 
 ## 🌙 DarkMode Aplicado em todas às páginas. <Pagina-inicial>
 
@@ -26,13 +25,7 @@ O design é minimalista e bonito, o que torna todo o site de fácil entedimento 
 O Darkmode é armazenado no LocalStorage. Logo quando ativado, ele guarda o tema para todas as outras páginas acessadas.
 ```
 
- 
 <img src="./img/Darkmode.svg" alt="exemplo imagem">
-
-O site foi desenvolvido utilizando o Framework BootStrap, biblioteca AOS, Swiper.
-
-O site todo está com a biblioteca AOS, que faz com que os conteúdos surjam conforme o conteúdo for scrollado.
-Também contém a biblioteca Swiper, que nos permite ter o Slide de depoimentos.
 
 ## 🌙 Menus e Submenus <Pagina-inicial>
 
@@ -41,13 +34,21 @@ Os menus e submenus, estão todos responsivos para mobile, ocultando a navbar e 
 hamburguer, o que torna a experiência do cliente melhor.
 ```
 
-<img src="./img/menu.png"  alt="exemplo imagem">
+<img src="./img/menu.png" alt="exemplo imagem">
 
+```
 Há um formulário de contato, com iFrame no Maps do Google, interativo, podendo ver claramente o local que o 
 desenvolvedor colocar, para o cliente é muito útil para a localização do escritório da empresa.
+```
+ 
+<img src="./img/menu2.png" alt="exemplo imagem">
 
-<img src="./img/menu2" alt="exemplo imagem">
+ 
+O site foi desenvolvido utilizando o Framework BootStrap, biblioteca AOS e Swiper.
 
+O site todo está com a biblioteca AOS, que faz com que os conteúdos surjam conforme o conteúdo for scrollado.
+Também contém a biblioteca Swiper, que nos permite ter o Slide de depoimentos.
+ 
 ### Ajustes e melhorias
 
 Projeto concluído:
@@ -76,8 +77,7 @@ Linux, macOS e Windows:
 ```
 <Entre no repositório do GitHub e baixe o repositório na opção "Download ZIP".
 <Extraia o arquivo .zip em uma pasta".
-<Abra a pasta pela IDE de sua preferência".
-
+<Abra a pasta pela IDE de sua preferência.
 ```
 
 
