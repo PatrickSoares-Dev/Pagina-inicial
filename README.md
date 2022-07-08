@@ -41,6 +41,12 @@ desenvolvedor colocar, para o usuário é muito útil para a localização do es
 ``` 
 <img src="./img/menu2.png" alt="exemplo imagem">
 
+``` 
+Todo o site está responsivo para todos os dipositivos, o que é um requisito muito importante, para quem utiliza
+mobile.
+``` 
+<img src="./img/responsiv.png" alt="exemplo imagem">
+
 ##
 O site foi desenvolvido utilizando o Framework BootStrap, biblioteca AOS e Swiper.
 
