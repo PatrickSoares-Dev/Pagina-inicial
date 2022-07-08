@@ -20,15 +20,6 @@ O Darkmode é armazenado no LocalStorage. Logo quando ativado, ele guarda o tema
 
 <img src="./img/Projeto.svg" alt="exemplo imagem">
 
-## 🌙 Menus e Submenus <Pagina-inicial>
-
-```
-Os menus e submenus, estão todos responsivos para mobile, ocultando a navbar e transformando-a em um menu de 
-hamburguer, o que torna a experiência do cliente melhor.
-```
-<img src="./img/menu.png" alt="exemplo imagem">
- 
- ##
 ```
 Todas às Subpáginas tem um layout padrão, mudando suas imagens, e algumas peculiariedas.
 ```
@@ -48,6 +39,17 @@ mobile.
 <img src="./img/responsiv.png" alt="exemplo imagem">
 
 ##
+
+##  Menus e Submenus <Pagina-inicial>
+
+```
+Os menus e submenus, estão todos responsivos para mobile, ocultando a navbar e transformando-a em um menu de 
+hamburguer, o que torna a experiência do cliente melhor.
+```
+<img src="./img/menu.png" alt="exemplo imagem">
+ 
+ ##
+
 O site foi desenvolvido utilizando o Framework BootStrap, biblioteca AOS e Swiper.
 
 O site todo está com a biblioteca AOS, que faz com que os conteúdos surjam conforme o conteúdo for scrollado.
