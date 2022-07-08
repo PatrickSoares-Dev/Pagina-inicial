@@ -30,13 +30,13 @@ hamburguer, o que torna a experiência do cliente melhor.
  
  ##
 ```
- Todas às Subpáginas tem um layout padrão, mudando suas imagens, e algumas peculiariedas.
+Todas às Subpáginas tem um layout padrão, mudando suas imagens, e algumas peculiariedas.
 ```
 <img src="./img/PG6.png" alt="exemplo imagem">
  
  ##
 ``` 
- Há um formulário de contato, com iFrame no Maps do Google, interativo, podendo ver claramente o local que o 
+Há um formulário de contato, com iFrame no Maps do Google, interativo, podendo ver claramente o local que o 
 desenvolvedor colocar, para o usuário é muito útil para a localização do escritório da empresa.
 ``` 
 <img src="./img/menu2.png" alt="exemplo imagem">
