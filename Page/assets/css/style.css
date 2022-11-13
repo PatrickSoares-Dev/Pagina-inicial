@@ -3,8 +3,8 @@
   scroll-behavior: smooth;
 
   
-  --backcolor: #1f2336;
-  --backcolor2: #1f2336;
+  --backcolor: #e7e7e7;
+  --backcolor2: #d1d1d1;
   --backcolor3: #ebe9e9;
   --color1blue: #012970;
   --color2blue: #012970;
@@ -443,7 +443,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url() top center no-repeat;
+  background: url(../img/1646260262189.png) top center no-repeat;
   background-size: cover;
 }
 

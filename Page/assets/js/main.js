@@ -219,6 +219,7 @@ if(currentTheme != null){
 document.getElementById('chk')
 addEventListener('click', function () {
   document.querySelector('body')
-  setAttribute("class", "dark")
+  // setAttribute("class", "dark")
+  console.log('teste')
 })
 
